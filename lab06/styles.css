@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+h1,h2 {
+    color: cadetblue;
+}
+
+.special {
+    color: purple
+}
+
+.evenrow {
+    background-color: lavender;
+}
+
+h1 {
+   font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
