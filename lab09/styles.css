@@ -26,6 +26,10 @@ nav {
 nav {margin-bottom: 30px
 }
 
+@media screen and (max-width: 600px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
 @media screen and (max-width: 600px) 
 {
     width: 200px; float: left;
