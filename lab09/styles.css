@@ -31,19 +31,21 @@ nav {margin-bottom: 30px
 }
 
 @media screen and (max-width: 600px) {
-    #leftsidebar {width: 200px; float: left;}
-    #main {margin-left: 216px;}
-  }
-@media screen and (max-width: 600px) 
-{
-    width: 200px; float: left;
+    nav a{display:block;}
+}
+
+@media screen and (min-width: 600px){
 
 }
 
-@media screen and (min-width: 600px)
+@media screen and (min-width: 768px){
 
-@media screen and (min-width: 768px)
+}
 
-@media screen and (min-width: 992px)
+@media screen and (min-width: 992px){
 
-@media screen and (min-width: 1200px)
+}
+
+@media screen and (min-width: 1200px){
+
+}
