@@ -32,10 +32,14 @@ nav {margin-bottom: 30px
 
 @media screen and (max-width: 600px) {
     nav a{display:block;}
+    nav a {width: 100%;}
+    span{display: none;}
 }
 
 @media screen and (min-width: 600px){
-
+    nav a{display:block;}
+    nav a{width:100%}
+    span{display: none;}
 }
 
 @media screen and (min-width: 768px){
