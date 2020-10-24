@@ -32,12 +32,16 @@ nav {margin-bottom: 30px
 
 @media screen and (max-width: 600px) {
     nav a {display:block;}
-    span {display:none;}
+    span {display:none;} 
     nav a {margin-bottom: 8px}
+    nav a {display: table; width: 100%}
 
 }
-@media screen and (min-width: 600px){
-
+@media screen and (max-width: 767px){
+    nav a {display:block;}
+    span {display:none;} 
+    nav a {margin-bottom: 8px}
+    nav a {display: table; width: 100%}
 
 }
 
