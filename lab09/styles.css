@@ -37,15 +37,12 @@ nav {margin-bottom: 30px
     nav a {display: table; width: 100%}
 
 }
-@media screen and (max-width: 767px){
+
+@media screen and (max-width: 991px){
     nav a {display:block;}
     span {display:none;} 
     nav a {margin-bottom: 8px}
     nav a {display: table; width: 100%}
-
-}
-
-@media screen and (min-width: 768px){
 
 }
 
