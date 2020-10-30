@@ -13,7 +13,7 @@
             background-color: white;
             border: 1px solid gray;
         }
-        #skip-to-content:focus {position: absolute; left:200px;}
+        #skip-to-content:focus {position: absolute; left:200px; bottom:10px;}
 
         .purple-box {
             display:flex;
@@ -64,10 +64,10 @@
     Syracuse, NY 13210
 </div>
 <div class="links">
-   <a href="mailto:ysuh02@syr.edu" tabindex="4">Yuri Suh's Email</a>
+   <a href="mailto:ysuh02@syr.edu">Yuri Suh's Email</a>
     <br>
-    <a href="https://www.linkedin.com/in/yuri-suh/" tabindex="5"><img src="../lab05/Images/logo-sized.png" alt="LinkedIn Logo" class="logo"></a>
-    <a href="https://www.linkedin.com/in/yuri-suh/" tabindex="6">My LinkedIn Profile</a>
+    <a href="https://www.linkedin.com/in/yuri-suh/"><img src="../lab05/Images/logo-sized.png" alt="LinkedIn Logo" class="logo"></a>
+    <a href="https://www.linkedin.com/in/yuri-suh/">My LinkedIn Profile</a>
 </div>
 </div>
 </section>
@@ -81,13 +81,12 @@
     
 
     <label for="fullname">Full Name</label>
-    <input type="text" id="fullname" name="fullname" tabindex="7"><br>
+    <input type="text" id="fullname" name="fullname" ><br>
 
     Are you a recruiter?
-    <label for="recruiterYes">Yes</label>
-    <input type="radio" id="recruiterYes" name="recruiter" value="Yes"tabindex="8">
-    <label for="recruiterNo">No</label>
-    <input type="radio" id="recruiterNo" name="recruiter" value="No" tabindex="9">
+    <label for="recruiterYes">Are you a recruiter?</label>
+    <input type="checkbox" id="recruiterYes" name="recruiter" value="Yes">
+    <input type="checkbox" id="recruiterNo" name="recruiter" value="No">
     <br>
 <br>
     <label for="phonecallyes">If yes, would you be available for a phone call in the next few weeks?</label>
