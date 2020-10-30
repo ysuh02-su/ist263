@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
+        #skip-to-content {
+            position: absolute; 
+            left: -999px;
+            background-color: white
+            border: 1px solid gray;
+        }
+        #skip-to-content:focus {position: absolute; left: 10px;}
         table, th, td {
             border: 1px solid black;
         }
@@ -18,6 +25,7 @@
 </head>
 
 <body>
+    <a id="skip-to-content" href="#content">Skip to Content</a>
   <nav>
         <a href="https://ysuh02-su.github.io/ist263/lab10/">Home</a>
             <span style="color:black;">&#124;</span>
