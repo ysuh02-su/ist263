@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
+         #skip-to-content {
+            position: absolute; 
+            left: -999px;
+            background-color: white
+            border: 1px solid gray;
+        }
+        #skip-to-content:focus {position: absolute; left: 10px;}
+
         .purple-box {
             display:flex;
             padding: 20px; 
@@ -37,6 +45,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a id="skip-to-content" href="#content">Skip to Content</a>
   <nav>
         <a href="https://ysuh02-su.github.io/ist263/lab10/">Home</a>
             <span style="color:black;">&#124;</span>
