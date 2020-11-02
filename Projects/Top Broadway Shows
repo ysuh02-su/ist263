@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Musicals</title>
+</head>
+
+<body>
+    <h1>Top 10 Broadway Shows Currently Showing</h1>
+    <p>
+        <ol>
+            <li>
+                <h3>Hamilton</h3>
+                A revolutionary underdog story, Hamilton explores the unlikely Founding Father determined to make his mark on the new nation. The story explores him going from an orphan to Washington’s right-hand man, a rebel to a war hero, a love husband caught the country’s first sex scandal, and the Treasury head who made an untrusting world believe in the American economy. Take a look at all of America’s most important figures making their mark in this astonishing new musical exploration of a political mastermind.
+            </li>
+            <li>
+                <h3>Wicked</h3>
+                Wicked, the Broadway sensation, discovers the Land of Oz in a different, refreshing way. Long before Dorothy arrives, there is another girl, born with emerald-green skin—smart, fiery, misunderstood, and possessing an extraordinary talent. When she meets a bubbly blonde who is exceptionally popular, their initial rivalry turns into the unlikeliest of friendships…until the world decides to call one “good,” and the other one “wicked.”
+            </li>
+            <li>
+                <h3>To Kill a Mockingbird</h3>
+                Inspired by Lee’s own childhood in Alabama, To Kill a Mockingbird features the character of Atticus Finch, based on Lee’s own father. The coming of age story shows Scout, based on Lee herself, defining youthful innocence. She witnesses her father, Atticus Finch, try to defend a black man, Tom Robinson, who is falsely accused of raping a white woman.
+            </li>
+            <li>
+                <h3>Moulin Rouge! The Musical</h3>
+                A world with splendor and romance, and Bohemians and aristocrats rub elbows and revel in electrifying enchantment, Moulin Rouge! The Musical welcomes a new and spectacular world. Welcome to the Moulin Rouge! 
+            </li>
+            <li>
+                <h3>The Phantom of the Opera</h3>
+                Also known as the longest running show on Broadway, The Phantom of the Opera follows a deformed composer who haunts the grand Paris Opera House. The lonely, romantic man composes operas behind the scenes for Christine, a gorgeous young soprano star-to-be that he’s been in love for many years. His passionate love soon turns into obsession, as Christine’s past love enters the picture.The Phantom grows mad, terrorizing the opera house with his murderous ways. Still, Christine finds herself drawn to the mystery man.
+            </li>
+            <li>
+                <h3>The Lion King</h3>
+                A lively stage adaptation of the Academy Award-winning 1994 Disney film, The Lion King is the story that takes place in the flourishing African Pride Lands. When an unthinkable tragedy occurs, Simba, the prince of the land, flees the Pride Lands, leaving his loss and life as prince behind. Eventually Simba’s past comes back to him, when weight of responsibility and a desperate plea from the now ravaged Pride Lands come to find the adult prince. Explore the young lion prince taking on Scar, his enemy as well as uncle, and fulfilling his destiny to be king.
+            </li>
+            <li>
+                <h3>The Book of Mormon</h3>
+                The Book of Mormon follows two young missionaries who are sent to Uganda to try to convert citizens to the Mormon religion. As they arrive in Africa, the two missionaries, Elders Price and Cunningham learn that in a society plagued by many issues, a successful mission may not be as easy as they expected. Travel with them, through the journey of struggles and successes.
+            </li>
+            <li>
+                <h3>Chicago</h3>
+                Set in the legendary city during the roaring “jazz hot” 20s, Chicago tells the story of two rival vaudevillian murderesses locked up in Cook County Jail. Nightclub star Velma’s serving time for killing her husband and sister after finding the two in bed together. Driven chorus girl Roxie’s been tossed in the joint for bumping off the lover she’s been cheating on her husband with. Not one to rest on her laurels, Velma enlists the help of prison matron Mama Morton and slickster lawyer Billy Flynn, who turn Velma’s incarceration into a murder-of-the-week media frenzy, thus preparing the world for a splashy showbiz comeback.
+            </li>
+            <li>
+                <h3>Come From Away</h3>
+                Come From Away is based on the true story of when the isolated community of Gander, Newfoundland played host to the world. See the journey of an international sleep-over when 38 planes, carrying thousands of people from across the globe, were diverted to Gander’s air strip on September 11, 2001. Community is brought together with music, despite cultural differences and language barriers, and the travelers and the people of Gander recognize that we’re a part of a global family.
+            </li>
+            <li>
+                <h3>Dear Evan Hansen</h3>
+                Dear Evan Hansen, explores Evan Hansen, an outcast that finally has the chance to live a life he’s dreamed of: to finally fit in. A contemporary coming of age musical that sheds light on a letter that was never meant to be seen, which changes Evan’s life forever.
+            </li>
+          </ol> 
+</body>
+</html>
