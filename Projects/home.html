@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+      .home-page{
+      text-align:center;
+    }
+    /* Heading 1 styling for home page*/
+    .home-page h1{
+      font-family: 'Pathway Gothic One', sans-serif;
+      font-size:120px;
+      text-align: center;
+      
+    }
+    /* Paragraph text styling for home page*/
+    .home-page p{
+      font-family: 'Open Sans', sans-serif; 
+    }
+    /* Styling of button in home page*/
+    .home-page button{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      background-color:transparent;
+      border-radius: 0px;
+      border:  2px solid black;
+      width:150px;
+      height:50px;
+    }
+    /* Styling of button when hovered */
+    .home-page button:hover {
+      background-color:black;
+      color: white;
+      cursor: pointer;
+    }
+    /* Placement and styling of copyright text for home page*/
+    #home-copyright{
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      margin-top:150px;
+    }
+    .jumbotron{
+      margin-top:100px;
+    }
+    /* had to do a media query here because internal styling was overriding the external styling */
+    @media only screen and (max-width: 600px) {
+      .home-page h1{font-size:70px; margin-top:50px;}
+      .home-page p{margin:10px;}
+      .jumbotron{margin-top:0px;}
+    }
+
+
+  </style>
+    <title>Home</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="musicals.html">MUSICALS</a></li>
+            <li><a href="soundtracks.html">SOUNDTRACKS</a></li>
+            <li><a href="actors.html">ACTORS</a></li>
+        </ul>
+      </nav>
+    <main class="home-page">
+      <div class="jumbotron">
+        <h1 class="display-4">BROADWAY</h1>
+        <p class="lead">Welcome to Broadway! Discover and explore different imaginative worlds within our world. </p>
+        <hr class="my-4">
+        </div> 
+    </main>
+    <footer>
+      <div id="home-copyright">
+        <p> Copyright &copy;  2020 Yuri Suh</p>
+      </div> 
+    </footer>
+</body>
+</html>
