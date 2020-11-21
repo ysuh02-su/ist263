@@ -3,27 +3,29 @@ body {
 }
 body {
     color:#5c1f45;
+    font-family: 'Montserrat', sans-serif;
 }
 a {
-    color:#1c26b8
+    color:#1c26b8;
 }
 h1, h2 {
-    color: #92709c
+    color: #92709c;
+    font-family: 'Montserrat', sans-serif;
 }
 nav {
-    background-color: #FECDD3
+    background-color: #FECDD3;
 }
 
 nav a {
     color: #000000;
 }
 nav a:hover {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 nav {
-    padding: 10px
+    padding: 10px;
 }
-nav {margin-bottom: 30px
+nav {margin-bottom: 30px;
 }
 
 .logo{
