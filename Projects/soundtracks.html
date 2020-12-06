@@ -4,6 +4,14 @@
 
 <head>
     <meta charset="utf-8">
+
+    <script>
+      function WinnerMessage(){
+      document.getElementById("messages").innerHTML ='You won!';
+      }
+      
+  </script>
+
     <style>
        .center { 
         margin: auto;
@@ -82,9 +90,9 @@
         <br>
         <h2>Orchestra Pit</h2>
 <div class="orchestra">
-    <h3>Lorem Ipsum</h3>
-        <header><img src="../Projects/Images/orchestra_pit_1.jpg" class= "Music" alt="Orchestra Pit Empty"></header>
-  
+    <h3>Click on image for link</h3>
+        <header><img src="../Projects/Images/orchestra_pit_1.jpg" class= "Music" alt="Orchestra Pit Empty" onclick="WinnerMessage();"></header>
+  <p>An orchestra pit is the area in a theater in which musicians perform. Orchestral pits are utilized in forms of theatre that require music or in cases when incidental music is required. The conductor is typically positioned at the front of the orchestral pit facing the stage.</p>
     </div>
 </body>
 </html>
