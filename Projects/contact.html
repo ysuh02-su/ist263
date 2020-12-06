@@ -17,13 +17,7 @@
         }
         #skip-to-content:focus {position: absolute; left:200px;}
 
-        .purple-box {
-            display:flex;
-            padding: 20px; 
-            background-color: #ceace3; 
-            border-radius: 1em; 
-            font-size: 1em; 
-            margin: 1em
+
         }
         .links{
             margin-left:20px;
@@ -33,10 +27,14 @@
             margin-left: 4em;  
             max-width: 100%
         }
+
+        .center {
+            margin-left: 2em
+        }
         .flex-container {
             display: flex; 
             padding: 20px; 
-            background-color: #ceace3; 
+            background-color: #83a3cd; 
             border-radius: 1em;
             font-size: 1em;
             margin: 1em; 
@@ -54,67 +52,38 @@
             <li><a href="musicals.html">MUSICALS</a></li>
             <li><a href="soundtracks.html">SOUNDTRACKS</a></li>
             <li><a href="actors.html">ACTORS</a></li>
-            <li><a> href="contact.html">CONTACT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav>
-<section>
-<h1>Contact</h1>
-<a id="content"></a>
-<div class="purple-box">
-<div class="contact">
-    Yuri Suh
-    <br>
-    311 Waverly Ave
-    <br>
-    Syracuse, NY 13210
-</div>
-<div class="links">
-   <a href="mailto:ysuh02@syr.edu">Yuri Suh's Email</a>
-    <br>
-    <img src="../lab05/Images/logo-sized.png" alt="LinkedIn Logo" class="logo">
-    <a href="https://www.linkedin.com/in/yuri-suh/">My LinkedIn Profile</a>
-</div>
-</div>
-</section>
 
+      <h1>Tickets and Contact</h1>
+<div class="center"> Please go to https://www.broadway.com/shows/tickets/ for ticketing information, and subscribe to our website for notifications regarding further updates about the beautiful world of Broadway! To subrscibe, fill out the contact form below.
+
+    <br>
+<br>
 <section>
 <h2>Form</h2>
+</div>
 <div class="flex-container">
     
 <div>
 <form action="mailto:ysuh02@syr.edu" method="post">
     <fieldset>
-        <legend>Contact form for recruiters</legend>
+        <legend>Contact form for subscription</legend>
     <label for="fullname">Full Name</label>
     <input type="text" id="fullname" name="fullname" ><br>
 
-    Are you a recruiter?
-    <input type="checkbox" id="recruiterYes" name="recruiter" value="Yes"> 
-    <label for="recruiterYes"> Yes</label>
-    <input type="checkbox" id="recruiterNo" name="recruiter" value="No">
-    <label for="recruiterNo"> No</label>
+    Are you interested in email updates?
+    <input type="checkbox" id="emailupdatesYes" name="emailupdates" value="Yes"> 
+    <label for="emailupdatesYes"> Yes</label>
+    <input type="checkbox" id="emailupdatesNo" name="emailupdates" value="No">
+    <label for="emailupdatesNo"> No</label>
 
     <br>
-<br>
-    If yes, would you be available for a phone call in the next few weeks?
-    <input type="checkbox" id="phonecallYes" name="phonecall" value="Yes"> 
-    <label for="phonecallYes"> Yes</label>
-    <input type="checkbox" id="phonecallNo" name="phonecall" value="No"> 
-    <label for="phonecallNo"> No</label>
-   
-    <br>
 
-    <label for="company">Which company are you recruiting for?</label>
-    <input type="text" id="company" name="company"><br>
+    <label for="email">Please insert your email address here.</label>
+    <input type="text" id="email" name="email"><br>
 
-    <label for="field">Under what field in the Advertising Industry?:</label>
-    <select id="field" name="field">
-        <option value="Art Direction">Art Direction</option>
-        <option value="Production">Production</option>
-        <option value="Strategic Planning">Strategic Planning</option>
-        <option value="General Marketing">General Marketing</option>
-    </select>
-    <br>
 <br>
     <label for="comment">For any other comments:</label>
     <br>
