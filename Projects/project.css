@@ -54,7 +54,7 @@ p{
 
   }
   @media screen and (max-width: 991px){
-    nav ul {display:block;} 
+    nav ul {display:block;text-align: center; padding:0;}
 
 }
 
