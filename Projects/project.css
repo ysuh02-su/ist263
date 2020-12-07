@@ -53,3 +53,13 @@ p{
     p{margin-left:15%; margin-right:15%}
 
   }
+  @media screen and (max-width: 991px){
+    nav ul {display:block;} 
+
+}
+
+@media screen and (min-width: 992px){
+}
+
+@media screen and (min-width: 1200px){
+}
